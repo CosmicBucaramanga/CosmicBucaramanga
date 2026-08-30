@@ -10,7 +10,7 @@
 */
 
 const pieces = [
-  { name: 'Personaje anime', cat: 'fandom', icon: '🐉', img: 'images/catalogo/anime-01.jpg' },
+  { name: 'Personaje anime', cat: 'fandom', icon: '🐉', img: 'images/catalogo/Luffy.png' },
   { name: 'Mascotas', cat: 'fandom', icon: '🐾', img: 'images/catalogo/sanrio-01.jpg' },
   { name: 'Superhéroe favorito', cat: 'fandom', icon: '🦸', img: 'images/catalogo/heroe-01.jpg' },
   { name: 'Quinceañera', cat: 'bodas', icon: '👑', img: 'images/catalogo/quince-01.jpg' },
