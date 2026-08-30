@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmic · Taller de porcelana</title>
+<meta name="description" content="Figuras personalizadas en porcelana fría, hechas a mano en Bucaramanga. Personajes, bodas, quince años, llaveros y regalos únicos sobre pedido.">
+<link rel="icon" href="images/logo/cosmic-logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Caveat:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#inicio" class="logo-mark">
+      <img src="images/logo/cosmic-logo.png" alt="Cosmic" class="logo-img">
+      Cosmic
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#instagram">Instagram</a></li>
+      <li><a href="#proceso">Cómo pedir</a></li>
+      <li><a href="#instagram">Instagram</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="https://wa.me/573177190510?text=Hola%20Cosmic%2C%20quiero%20pedir%20una%20figura%20%F0%9F%A9%B7" target="_blank" rel="noopener" class="nav-cta">Pedir figura</a>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú">☰</button>
+  </div>
+</nav>
+
+<section class="hero" id="inicio">
+  <div class="stars" id="starField"></div>
+  <div class="wrap hero-inner">
+    <div>
+      <span class="eyebrow">✨ Taller de porcelana en Bucaramanga</span>
+      <h1>Cada figura guarda <span>un universo</span> propio</h1>
+      <p class="lead">Moldeo en porcelana fría personajes, recuerdos y momentos que quieres tener siempre cerca. Hecho a mano, pieza por pieza, para ti.</p>
+      <div class="btn-row">
+        <a href="https://wa.me/573177190510?text=Hola%20Cosmic%2C%20quiero%20pedir%20una%20figura%20%F0%9F%A9%B7" target="_blank" rel="noopener" class="btn btn-primary">🛒 Encargar mi figura</a>
+        <a href="#galeria" class="btn btn-ghost">Ver catálogo</a>
+      </div>
+    </div>
+    <div class="hero-orb">
+      <div class="orb-shelf">
+        <div class="orb-inner"><span>hecho<br>a mano</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about section-pad" id="sobre-mi">
+  <div class="wrap about-grid">
+    <div class="about-portrait">
+      <span class="tag-float">@sofiafranco0.o</span>
+    </div>
+    <div class="about-text">
+      <span class="section-tag">Sobre mí</span>
+      <h2 class="section-title">La persona detrás de cada pieza</h2>
+      <p>Soy Sofía, la creadora de Cosmic. Trabajo la porcelana fría a mano, capa por capa, hasta convertirla en el personaje, la pareja o el recuerdo que me pides. Cada encargo empieza en una conversación contigo y termina siendo una miniatura que cuenta tu historia.</p>
+      <p>Desde Bucaramanga hago envíos a toda Colombia, para que ese detalle hecho con cariño llegue a donde lo necesites.</p>
+      <p class="about-signature">— Sofía, Cosmic 🩷</p>
+      <div class="about-stats">
+        <div class="stat"><b>+300</b><span>figuras entregadas</span></div>
+        <div class="stat"><b>100%</b><span>sobre pedido</span></div>
+        <div class="stat"><b>🇨🇴</b><span>envíos nacionales</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" id="galeria">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Galería</span>
+      <h2 class="section-title">Un vistazo a lo que hemos creado</h2>
+      <p class="section-note">Las fotos se cargan automáticamente desde <code>images/catalogo/</code>. Mientras no subas las tuyas, se muestra una demo de referencia.</p>
+    </div>
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-cat="todos">Todos</button>
+      <button class="filter-btn" data-cat="fandom">Personajes &amp; fandom</button>
+      <button class="filter-btn" data-cat="bodas">Bodas &amp; quince</button>
+      <button class="filter-btn" data-cat="llaveros">Llaveros</button>
+      <button class="filter-btn" data-cat="personalizadas">Personalizadas</button>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- items injected by JS desde js/catalogo.js -->
+    </div>
+  </div>
+</section>
+
+<section class="section-pad instagram-section" id="instagram">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="section-tag">Instagram</span>
+      <h2 class="section-title">Nuestras últimas publicaciones</h2>
+      <p class="section-note center">Este espacio se actualiza solo, directo desde @cosmic_bucaramanga.</p>
+    </div>
+
+    <div id="instagram-feed" class="instagram-feed-wrap">
+      <!--
+        ▶ AQUÍ VA EL WIDGET DE INSTAGRAM (Behold.so o SnapWidget)
+        Sigue los pasos de README.md → "Carrusel automático de Instagram"
+        y reemplaza este bloque por el <script>/<iframe> que te den.
+        Mientras tanto, se muestra este aviso de respaldo:
+      -->
+      <div class="instagram-fallback">
+        <span class="ico">📸</span>
+        <p>Conecta el widget de Instagram (ver <code>README.md</code>) para que aquí aparezcan tus publicaciones más recientes de forma automática.</p>
+        <a href="https://www.instagram.com/cosmic_bucaramanga/" target="_blank" rel="noopener" class="btn btn-primary btn-dark">Ver en Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process section-pad" id="proceso">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Cómo pedir</span>
+      <h2 class="section-title">De la idea a la figura en 4 pasos</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">01</span>
+        <h3>Cuéntame tu idea</h3>
+        <p>Escríbeme por WhatsApp o Instagram con el personaje, la pareja o el detalle que quieres inmortalizar.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">02</span>
+        <h3>Cotización y boceto</h3>
+        <p>Te cuento el precio, el tiempo de entrega y afinamos tamaño, colores y detalles.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">03</span>
+        <h3>Moldeo a mano</h3>
+        <p>Doy forma a tu figura en porcelana fría, capa por capa, y te muestro el avance.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">04</span>
+        <h3>Empaque y envío</h3>
+        <p>Empaco con cuidado y la envío a cualquier parte de Colombia hasta tu puerta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad insta-section" id="instagram">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Últimas publicaciones</span>
+      <h2 class="section-title">Directo desde @cosmic_bucaramanga</h2>
+      <p class="section-note">Las fotos se cargan automáticamente desde <code>images/instagram/</code>. Ver <a href="https://www.instagram.com/cosmic_bucaramanga/" target="_blank" rel="noopener">el perfil completo →</a></p>
+    </div>
+    <div class="carousel" id="instaCarousel">
+      <button class="carousel-arrow prev" id="prevBtn" aria-label="Publicación anterior">‹</button>
+      <div class="carousel-track" id="carouselTrack">
+        <!-- slides injected by JS -->
+      </div>
+      <button class="carousel-arrow next" id="nextBtn" aria-label="Publicación siguiente">›</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap">
+    <span class="section-tag">Contacto</span>
+    <h2 class="contact-title">Hablemos de tu próxima figura</h2>
+    <p class="lead">Cuéntame la idea, el personaje o la fecha especial que quieres celebrar y la moldeamos juntas.</p>
+    <div class="contact-cards">
+      <a class="c-card" href="https://wa.me/573177190510?text=Hola%20Cosmic%2C%20quiero%20pedir%20una%20figura%20%F0%9F%A9%B7" target="_blank" rel="noopener">
+        <span class="ico">💬</span>
+        <h3>WhatsApp</h3>
+        <p>317 719 0510</p>
+      </a>
+      <a class="c-card" href="https://www.instagram.com/cosmic_bucaramanga/" target="_blank" rel="noopener">
+        <span class="ico">📸</span>
+        <h3>Instagram</h3>
+        <p>@cosmic_bucaramanga</p>
+      </a>
+      <a class="c-card" href="#">
+        <span class="ico">🚚</span>
+        <h3>Envíos</h3>
+        <p>A toda Colombia</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>Cosmic</strong> · Taller de porcelana en Bucaramanga, Colombia · Hecho a mano con 🩷
+</footer>
+
+<script src="js/catalogo.js"></script>
+<script src="js/instagram.js"></script>
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
