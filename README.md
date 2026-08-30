@@ -35,34 +35,6 @@ cosmic-bucaramanga/
 
 3. Guarda el archivo y recarga la página — la figura aparecerá automáticamente en la galería y en su filtro correspondiente.
 
-No necesitas tocar el HTML ni el CSS para agregar o quitar productos, solo `js/catalogo.js`.
-
-## 💬 WhatsApp
-
-El número configurado es **317 719 0510**. Los botones de "Pedir figura", "Encargar mi figura" y la tarjeta de contacto abren WhatsApp con un mensaje ya escrito. Si quieres cambiar el mensaje o el número, edítalo en `index.html` buscando `wa.me/573177190510`.
-
-## 🚀 Subir el proyecto a GitHub
-
-Desde la carpeta `cosmic-bucaramanga`, en una terminal:
-
-```bash
-git init
-git add .
-git commit -m "Primer commit: landing page Cosmic"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/cosmic-bucaramanga.git
-git push -u origin main
-```
-
-Reemplaza `TU-USUARIO` por tu usuario de GitHub y crea antes el repositorio vacío en github.com (sin README, para evitar conflictos).
-
-## 🌐 Publicarlo gratis con GitHub Pages
-
-1. En el repositorio, ve a **Settings → Pages**.
-2. En "Source" selecciona la rama `main` y la carpeta `/ (root)`.
-3. Guarda. En unos minutos tu sitio quedará disponible en:
-   `https://TU-USUARIO.github.io/cosmic-bucaramanga/`
-
 ## ✏️ Otros ajustes rápidos
 
 - **Colores y tipografías**: variables al inicio de `css/style.css` (sección `:root`).
