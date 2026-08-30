@@ -14,7 +14,7 @@ const pieces = [
   { name: 'Mascotas', cat: 'fandom', icon: '🐾', img: 'images/catalogo/Mascotas.png' },
   { name: 'Superhéroe favorito', cat: 'fandom', icon: '🦸', img: 'images/catalogo/Deadpool.png' },
   { name: 'Quinceañera', cat: 'celebraciones', icon: '👑', img: 'images/catalogo/quince-01.jpg' },
-  { name: 'Aniversario', cat: 'celebraciones', icon: '💞', img: 'images/catalogo/aniversario-01.jpg' },
+  { name: 'Aniversario', cat: 'celebraciones', icon: '💞', img: 'images/catalogo/Boda.png' },
   { name: 'Llavero mini figura', cat: 'llaveros', icon: '🔑', img: 'images/catalogo/llavero-01.jpg' },
   { name: 'Con tu nombre', cat: 'personalizadas', icon: '🏷️', img: 'images/catalogo/personalizada-01.jpg' },
   { name: 'Recuerdo especial', cat: 'personalizadas', icon: '🎁', img: 'images/catalogo/personalizada-04.jpg' },
