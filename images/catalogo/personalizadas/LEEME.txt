@@ -1,1 +1,0 @@
-Coloca aqui las fotos de la categoria 'personalizadas'. El nombre del archivo se convierte automaticamente en el titulo (ej: llavero-mascota.jpg -> "Llavero mascota"). Para controlar el orden, antepon numeros: 01-llavero.jpg, 02-llavero.jpg
