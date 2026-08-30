@@ -15,7 +15,7 @@ const pieces = [
   { name: 'Superhéroe favorito', cat: 'fandom', icon: '🦸', img: 'images/catalogo/Deadpool.png' },
   { name: 'Quinceañera', cat: 'celebraciones', icon: '👑', img: 'images/catalogo/quince-01.jpg' },
   { name: 'Aniversario', cat: 'celebraciones', icon: '💞', img: 'images/catalogo/Boda.png' },
-  { name: 'Llaveros', cat: 'llaveros', icon: '🔑', img: 'images/catalogo/llavero-01.jpg' },
+  { name: 'Llaveros', cat: 'llaveros', icon: '🔑', img: 'images/catalogo/Kuromi.png' },
   { name: 'Con tu nombre', cat: 'personalizadas', icon: '🏷️', img: 'images/catalogo/personalizada-01.jpg' },
   { name: 'Recuerdo especial', cat: 'personalizadas', icon: '🎁', img: 'images/catalogo/personalizada-04.jpg' },
 ];
