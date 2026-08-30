@@ -292,16 +292,19 @@ a:focus-visible, button:focus-visible{
   object-fit:cover;
 }
 .about-portrait .tag-float{
-  position:absolute;
-  bottom:-18px; right:-18px;
-  background:#fff;
-  padding:12px 18px;
-  border-radius:var(--radius-md);
-  box-shadow:var(--shadow);
-  font-family:'Baloo 2', sans-serif;
-  font-weight:700;
-  font-size:0.85rem;
-  color:var(--night);
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: var(--radius-md); /* */
+  box-shadow: var(--shadow); /*[cite: 2] */
+  font-family: 'Baloo 2', sans-serif; /*[cite: 2] */
+  font-weight: 700; /*[cite: 2] */
+  font-size: 0.85rem; /*[cite: 2] */
+  color: var(--night); /*[cite: 2] */
+  white-space: nowrap; /* Evita que el texto se parta en dos líneas */
 }
 .about-text p{
   font-size:1.05rem;
