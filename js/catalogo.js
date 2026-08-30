@@ -12,7 +12,7 @@
 const pieces = [
   { name: 'Personaje anime', cat: 'fandom', icon: '🐉', img: 'images/catalogo/Luffy.png' },
   { name: 'Mascotas', cat: 'fandom', icon: '🐾', img: 'images/catalogo/Mascotas.png' },
-  { name: 'Superhéroe favorito', cat: 'fandom', icon: '🦸', img: 'images/catalogo/heroe-01.jpg' },
+  { name: 'Superhéroe favorito', cat: 'fandom', icon: '🦸', img: 'images/catalogo/Deadpool.png' },
   { name: 'Quinceañera', cat: 'bodas', icon: '👑', img: 'images/catalogo/quince-01.jpg' },
   { name: 'Aniversario', cat: 'bodas', icon: '💞', img: 'images/catalogo/aniversario-01.jpg' },
   { name: 'Llavero mini figura', cat: 'llaveros', icon: '🔑', img: 'images/catalogo/llavero-01.jpg' },
