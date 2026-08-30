@@ -16,6 +16,6 @@ const pieces = [
   { name: 'Quinceañera', cat: 'celebraciones', icon: '👑', img: 'images/catalogo/quince-01.jpg' },
   { name: 'Aniversario', cat: 'celebraciones', icon: '💞', img: 'images/catalogo/Boda.png' },
   { name: 'Llaveros', cat: 'llaveros', icon: '🔑', img: 'images/catalogo/Kuromi.png' },
-  { name: 'Con tu nombre', cat: 'personalizadas', icon: '🏷️', img: 'images/catalogo/personalizada-01.jpg' },
+  { name: 'Con tu nombre', cat: 'personalizadas', icon: '🏷️', img: 'images/catalogo/Ofelia.png' },
   { name: 'Recuerdo especial', cat: 'personalizadas', icon: '🎁', img: 'images/catalogo/personalizada-04.jpg' },
 ];
