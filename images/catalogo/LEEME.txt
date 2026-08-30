@@ -1,2 +1,0 @@
-Coloca aqui las fotos de tus productos (ej: bobblehead-01.jpg)
-y luego agrega la referencia en js/catalogo.js
